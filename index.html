@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Creative Site">
+        <meta property="og:description" content="Landing page uwu">
+        <meta property="og:type" content="website">
+        <meta property="og:locale" content="en_PH" />
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="images/logo1.png">
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+        <title>Creative Site</title>
+        <script defer src="main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+    </head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo1.png" alt="">
+        </div>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Awards</a></li>
+            <li><a href="#">Podcast</a></li>
+            <li><a href="#">Contacts</a></li>
+        </ul>
+    </header>
+    
+    <section id="home">
+        <div class="container">
+            <p>deepest satisfaction’s quenched</p>
+            <h1>Creative</h1>
+        </div>
+    </section>
+    
+    <section id="desc">
+        <div class="container">
+            <div class="headings h2">
+                <h2>What do we do?</h2>
+            </div>
+            <div class="box">
+                <div class="img S">
+                    <img src="images/img1.png" alt="">
+                </div>
+                <div class="text S">
+                    <p>Creative is a real estate company that provides a fine built website.  We support every entrepreneur around the world by supplying them an efficient sites for their customer’s browsing. It is compatible and user interface friendly. Not only for business purposes, also for personal, membership, event, and any non-profit websites. </p>
+                    <div class="btn-class">
+                        <button class="btn">learn more</button>
+                    </div>
+                    <div class="spon">
+                        <img src="images/S1.png" alt="">
+                        <img src="images/S2.png" alt="">
+                        <img src="images/S3.png" alt="">
+                        <img src="images/S4.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="subscribe">
+        <div class="headings h2">
+            <h2>Subscribe To Us Now!</h2>
+        </div>
+        <div class="container">
+            <div class="check su">
+                <div class="headings">
+                    <h2>Why Pick Us?</h2>
+                </div>
+                <div class="check2">
+                    <div class="row">
+                        <img src="images/check1.png" alt="">
+                        <div class="letter">
+                            <p>Website Insurance</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="images/check1.png" alt="">
+                        <div class="letter">
+                            <p>Clean Codes</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="images/check1.png" alt="">
+                        <div class="letter">
+                            <p>We develop a responsive websites at any viewports</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="images/check1.png" alt="">
+                        <div class="letter">
+                            <p>Our accommodating system and team are responsible for what your preference is</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fill-up su">
+                <div class="headings">
+                    <h2>Subscribe</h2>
+                </div>
+                <form class="form" onsubmit="submitForm(); return false">
+                    <input type="text" autofocus placeholder="enter your name" required name="text">
+                    <input type="email" placeholder="enter your email" required name="email">
+                    <div class="btn2">
+                        <button class="btn">Send</button>
+                        <div class="response"></div>  
+                    </div>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <div class="socialmedias">
+            <i class='bx bxl-facebook-circle' style='color:#ffffff'></i>
+            <i class='bx bxl-instagram' style='color:#ffffff' ></i>
+            <i class='bx bxl-snapchat' style='color:#ffffff' ></i>
+            <i class='bx bxl-twitter' style='color:#ffffff' ></i>    
+            <i class='bx bxl-whatsapp' style='color:#ffffff' ></i>
+            <i class='bx bxl-github' style='color:#ffffff' ></i>
+        </div>
+    </footer>
+    <div class="copyright">
+        copyright &copy; creative | 2022
+    </div>
+</section>
+
+</body>
+</html>
